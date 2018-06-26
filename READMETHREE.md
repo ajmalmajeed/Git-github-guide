@@ -8,3 +8,7 @@ NOTE - Why we have to make sure we are in the develop branch before making the f
 5.) git add -A
 6.) git commit -m "Readme and Vehicle class added"
 7.) git push --setupstream origin feature/classes
+8.) Once you're done with your feature branch, go to the remote repository, go to your feature branch and create a pull request.
+9.) after clicking "Create a pull request", set the base branch as the develop branch and compare as the feature branch and create pull request, afterwards, confirm and pull merge and confirm merge.
+
+NOTE - The reason for creating a pull request is to merge the feature branch with the develop branch. Once you're done with a feature, you need to merge that to you develop branch.
